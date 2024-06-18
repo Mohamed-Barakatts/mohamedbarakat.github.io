@@ -4,22 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohamed Barakat's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to Mohamed Barakat's Portfolio</h1>
+        <h1>Mohamed Barakat's Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <section>
+        <section id="about">
             <h2>About Me</h2>
-            <p>This is where you can introduce yourself.</p>
+            <p>Hello! My name is Mohamed Barakat, and I am an Egyptian high school student passionate about programming and cybersecurity. This portfolio showcases my projects, skills, and achievements.</p>
         </section>
-        <section>
+        <section id="projects">
             <h2>Projects</h2>
-            <p>Details about your projects will go here.</p>
+            <div class="project">
+                <h3>Password Manager</h3>
+                <p>A tool to generate and store secure passwords.</p>
+                <a href="https://github.com/Mohamed-Barakatts/password-manager">View on GitHub</a> | <a href="https://mohamedbarakat.github.io/password-manager">Live Demo</a>
+            </div>
+            <div class="project">
+                <h3>Web Scraper</h3>
+                <p>A script to scrape data from websites and store it in a structured format.</p>
+                <a href="https://github.com/Mohamed-Barakatts/web-scraper">View on GitHub</a> | <a href="https://replit.com/@Mohamed-Barakatts/web-scraper">Try It on Replit</a>
+            </div>
         </section>
     </main>
     <footer>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile">Your LinkedIn Profile</a></p>
+        </section>
         <p>&copy; 2024 Mohamed Barakat</p>
     </footer>
 </body>
